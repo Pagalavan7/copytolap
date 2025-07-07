@@ -1,0 +1,141 @@
+JavaScript Core Concepts
+
+1. What is hoisting? How does it differ for var, let, const, and functions?
+
+
+2. What are closures in JavaScript?
+
+
+3. What is the difference between slice() and splice()?
+
+
+4. What is the difference between map() and forEach()?
+
+
+5. How does the || (OR) operator differ from the ?? (nullish coalescing) operator?
+
+
+6. What is optional chaining (?.), when was it introduced in Node.js, and how does it work?
+
+
+7. How does method chaining work in JavaScript (e.g., add(3,4).mul(4).div(4))?
+
+
+8. How do you remove duplicate elements from an array?
+
+
+9. How can you flatten a nested array without using built-in methods?
+
+
+10. How do you merge two objects in JavaScript?
+
+
+11. What is a shallow copy? How does Object.assign({}, obj) behave in this context?
+
+
+12. How does Array.isArray() work?
+
+
+
+
+---
+
+🔹 Asynchronous JavaScript & Event Loop
+
+1. How does setTimeout behave inside a for loop with a delay of i * 1000 for i from 1 to 3? Why does it log the same value?
+
+
+2. How can you fix the above setTimeout issue to log 1, 2, 3 sequentially without removing setTimeout?
+
+
+3. What’s the log order when using setTimeout and Promise.then() together?
+
+
+4. How does Node.js handle async/await despite being single-threaded?
+
+
+5. How would you use Node.js to handle CPU-intensive operations?
+
+
+
+
+---
+
+🔹 React Core & Hooks
+
+1. What is the difference between useContext and useState?
+
+
+2. What is the key difference between useState and useReducer?
+
+
+3. How can you use useReducer with React Context?
+
+
+4. What are custom hooks, and can they be used inside utility functions?
+
+
+5. What is a hook in React?
+
+
+6. What is the purpose of the key prop in React? How does React use it internally to manage re-renders?
+
+
+7. What is memoization in React, and how does React.memo help in optimization?
+
+
+8. How can you pass custom comparison logic to React.memo?
+
+
+9. What is useLayoutEffect, and how is it different from useEffect?
+
+
+
+
+---
+
+🔹 React Routing
+
+1. What is the difference between URL params and query parameters?
+
+
+2. How can you access route params and query params in React?
+
+
+3. What is the key difference between using a <Link> component vs an <a> tag in React?
+
+
+
+
+---
+
+🔹 Testing & Debugging
+
+1. What dev tools do you use for debugging JavaScript or React apps?
+
+
+2. How do you mock HTTP calls in Jest for unit testing?
+
+
+3. What is React Testing Library, and how is it used in writing test cases?
+
+
+
+
+---
+
+🔹 Node.js & Express
+
+1. How do you scale an Express.js application?
+
+
+2. How do load balancers allocate containers and manage network traffic in scalable architectures?
+
+
+3. How do you handle schema validation errors in Express (e.g., missing params or query parameters)?
+
+
+4. How do you handle API security in Express applications?
+
+
+5. How would you design an Express route like lists/:id?
